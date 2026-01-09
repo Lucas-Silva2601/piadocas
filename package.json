@@ -1,0 +1,33 @@
+{
+  "name": "piadocas",
+  "version": "1.0.0",
+  "description": "Gerador de piadas com IA usando Ollama Cloud",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "app:start": "node scripts/start.js",
+    "app:stop": "node scripts/stop.js",
+    "app:restart": "node scripts/restart.js"
+  },
+  "keywords": [
+    "piadas",
+    "ollama",
+    "ai",
+    "nextjs",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
